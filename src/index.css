@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+/* nav bar styling */
+nav {
+  height: 20%;
+  display: flex;
+  align-items: center;
+  background-color: rgb(141, 180, 234);
+}
+.logo-image {
+  margin: 8px 8px 8px 30px;
+  height: 50px;
+  width: 50px;
+  object-fit: fill;
+}
+.logo-heading {
+  font-size: x-large;
+  font-weight: 700;
+}
+
+/* main container styling */
+main {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 32px;
+}
+.display-container {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
